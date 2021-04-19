@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    margin: 32px 0;
+    color: #555;
+    font-weight: 300;
+  }
+
+.board {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid #ddd;
+    margin: 32px auto 0px auto;
+}
+  
+.square {
+    height: 100px;
+    width: 100px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 229, 190);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+  
+.square:hover {
+    cursor: pointer;
+    background-color: rgb(255, 157, 157);
+    color: #fff;
+}
+  
+.winner{
+    margin-top:20px;
+    text-align: center;
+    color: #0CC90C;
+}
+
+
+.primary-button {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px;
+    border: 4px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    margin: 20px auto;
+}
+
+.primary-button:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    border-color: #f6b93b !important;
+    transition: all 0.4s ease 0s;
+}
+
+.turn-text{
+      text-align: center;
+      color: #555;
+}
